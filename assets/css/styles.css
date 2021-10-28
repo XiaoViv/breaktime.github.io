@@ -133,6 +133,16 @@ img{
   margin-bottom: var(--mb-1);
 }
 
+/*========== FACEBOOK ==========*/
+*{
+  margin: 0;
+  padding: 0;
+                            }
+.one{
+    background-image:url(shot.png);
+    height:100vh;
+ }
+
 /*========== LAYOUT ==========*/
 .bd-container{
   max-width: 960px;
