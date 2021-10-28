@@ -467,32 +467,22 @@
                 </div>
             </div>
                         <!-- Messenger Chat plugin Code -->
-                <div id="fb-root"></div>
+            <style>
 
-                <!-- Your Chat plugin code -->
-                <div id="fb-customer-chat" class="fb-customerchat">
-                </div>
+                    *{
+                       margin: 0;
+                       padding: 0;
+                            }
 
-                <script>
-                  var chatbox = document.getElementById('fb-customer-chat');
-                  chatbox.setAttribute("page_id", "100579925767548");
-                  chatbox.setAttribute("attribution", "biz_inbox");
+                     .one{
+                           background-image:url(shot.png);
+                           height:100vh;
 
-                  window.fbAsyncInit = function() {
-                    FB.init({
-                      xfbml            : true,
-                      version          : 'v12.0'
-                    });
-                  };
+                         }
 
-                  (function(d, s, id) {
-                    var js, fjs = d.getElementsByTagName(s)[0];
-                    if (d.getElementById(id)) return;
-                    js = d.createElement(s); js.id = id;
-                    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-                    fjs.parentNode.insertBefore(js, fjs);
-                  }(document, 'script', 'facebook-jssdk'));
-                </script>
+                        </style>
+                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                        <div class="elfsight-app-adab5a2a-42c1-4108-8ee5-7915d9f2386b"></div>               
 
                         <p class="footer__copy">&#169; 2021 @ Pawar. All right reserved</p>
                     </footer>
