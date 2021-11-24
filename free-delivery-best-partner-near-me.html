@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-sigin-client_id" content="
+           691146448237-b9414o0sefegj0svl2n4h4ep3nofbcf5.apps.googleusercontent.com"
     <title>Free Delivery Promo</title>
 
     <!-- favicon -->
@@ -26,7 +28,7 @@
 
 <body>
 
-
+    
 
     <!--Wrapper-->
     <div class="wrapper">
@@ -103,7 +105,27 @@
                           </a>
                         </div>
                         <br>
-                        
+			    <div id="profileinfo"></div>
+			    <div class="g-signin2" data-onsuccess="onSingIn"></div>
+			    
+			    <script>
+				    function onSingIn(googleUser) {
+					    var profile = googleUser.getBasicProfile();
+					    document.getElementById('profileinfo').innerHTML = profile.getName() + "<br>
+					      + "<a href='mailto:'" + profile.getEmail() + "'>' + profile.getEmail() + "</a> + "<br>"
+					      + "<img src='" + profile.getImageUrl() + "'/>";
+				    }
+			    </script>
+			    <a href="#" onclick="signOut();">Sign out</a>
+			    <script>
+				     function singOut() {
+					    var auth2 = gapi.auth2.getAuthInstance();
+					     auth2.signOut().then(funstion () {
+					          document.getElementById('profileinfo').innerHTML = "";
+				      });	     
+				    }
+			    </script>	 	 
+						 
 					  <img class="logo-banner" 
                       src="phone/css/images/Untitled1.png" alt="phone img">                       
                         <h3>Welcome to the World of your choice</h3>
