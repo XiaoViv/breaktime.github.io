@@ -105,27 +105,7 @@
                           </a>
                         </div>
                         <br>
-			    <div id="profileinfo"></div>
-			    <div class="g-signin2" data-onsuccess="onSingIn"></div>
-			    
-			    <script>
-				    function onSingIn(googleUser) {
-					    var profile = googleUser.getBasicProfile();
-					    document.getElementById('profileinfo').innerHTML = profile.getName() + "<br>
-					      + "<a href='mailto:'" + profile.getEmail() + "'>' + profile.getEmail() + "</a> + "<br>"
-					      + "<img src='" + profile.getImageUrl() + "'/>";
-				    }
-			    </script>
-			    <a href="#" onclick="signOut();">Sign out</a>
-			    <script>
-				     function singOut() {
-					    var auth2 = gapi.auth2.getAuthInstance();
-					     auth2.signOut().then(funstion () {
-					          document.getElementById('profileinfo').innerHTML = "";
-				      });	     
-				    }
-			    </script>	 	 
-						 
+			   					 
 					  <img class="logo-banner" 
                       src="phone/css/images/Untitled1.png" alt="phone img">                       
                         <h3>Welcome to the World of your choice</h3>
