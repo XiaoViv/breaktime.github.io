@@ -350,7 +350,6 @@ img{
 
         .g-sign-in-button {
             margin: 10px;
-            position: fixed;
             display: inline-block;
             width: 240px;
             height: 50px;
@@ -384,7 +383,6 @@ img{
         }
 
         .g-sign-in-button .logo-wrapper {
-            position: fixed;
             padding: 15px;
             background: #fff;
             width: 48px;
@@ -394,7 +392,6 @@ img{
         }
 
         .g-sign-in-button .text-container {
-            position: fixed;
             font-family: Roboto,arial,sans-serif;
             font-weight: 500;
             letter-spacing: .21px;
