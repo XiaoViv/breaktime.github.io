@@ -401,6 +401,7 @@ img{
             vertical-align: top;
             border-radius: 20px
             border: 2px;
+            position: fixed;
             display: inline-block;
             text-align: center;
             width: 180px;
