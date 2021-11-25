@@ -350,8 +350,8 @@ img{
 
         .g-sign-in-button {
             margin: 10px;
-            display: inline-block;
             position: fixed;
+            display: inline-block;
             width: 240px;
             height: 50px;
             background-color: #4285f4;
@@ -393,6 +393,7 @@ img{
         }
 
         .g-sign-in-button .text-container {
+            position: fixed;
             font-family: Roboto,arial,sans-serif;
             font-weight: 500;
             letter-spacing: .21px;
@@ -401,7 +402,6 @@ img{
             vertical-align: top;
             border-radius: 20px
             border: 2px;
-            position: fixed;
             display: inline-block;
             text-align: center;
             width: 180px;
