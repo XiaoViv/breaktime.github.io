@@ -349,6 +349,7 @@ img{
         }
 
         .g-sign-in-button {
+            position: flex;
             margin: 10px;
             display: inline-block;
             width: 240px;
