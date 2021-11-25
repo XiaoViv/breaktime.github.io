@@ -77,7 +77,20 @@
             </section>
             
             <!--========== GOOGLE BUTTON ==========-->
-             <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark" postion: flex ></div>
+            <div class='g-sign-in-button'>
+            <div class=content-wrapper>
+            <div class='logo-wrapper'>
+            <img src='https://developers.google.com/identity/images/g-logo.png'>
+            </div>
+            <span class='text-container'>
+            <span>Sign in with Google</span>
+            </span>
+            </div>
+            </div>
+
+            <style>
+            </style>    
+            <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark" postion: flex ></div>
              <script>
                 function onSignIn(googleUser) {
                 // Useful data for your client-side scripts:
