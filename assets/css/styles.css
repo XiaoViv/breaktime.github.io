@@ -404,6 +404,8 @@ img{
             display: inline-block;
             text-align: center;
             width: 180px;
+        }
+         .g-sign-2 button {   
             left: 50%;
             position: absolute;
             top: 50%;
