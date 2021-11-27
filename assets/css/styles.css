@@ -339,7 +339,7 @@ img{
         }
 
         .g-signin2 > div{
-            margin: top;
+            margin-top: 0 auto;
         }
          
 </style>
