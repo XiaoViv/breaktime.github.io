@@ -392,7 +392,7 @@ img{
             display: inline-block;
         }
 
-        .g-sign-in-button .text-container {
+        .g-sign-2 button .text-container {
             font-family: Roboto,arial,sans-serif;
             font-weight: 500;
             letter-spacing: .21px;
@@ -405,13 +405,7 @@ img{
             text-align: center;
             width: 180px;
         }
-         .g-sign-2 button {   
-            left: 50%;
-            position: absolute;
-            top: 50%;
-            transform: translate(-50%, -50%);
-        }
-
+         
 </style>
 
 
