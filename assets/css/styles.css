@@ -339,7 +339,8 @@ img{
         }
 
         .g-signin2 > div{
-            margin-top: 0 auto;
+            margin-right: 100px;
+            margin-right: inherit;
         }
          
 </style>
