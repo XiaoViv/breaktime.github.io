@@ -335,11 +335,11 @@ img{
         }
 
         .g-signin2{
-            width: 50%;
+            width: 100%;
         }
 
         .g-signin2 > div{
-            margin: 0 auto;
+            margin: 10 auto;
         }
          
 </style>
